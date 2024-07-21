@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Assignment</title>
+</head>
+<body>
+    <h2>DOM Assignments</h2>
+    <h3>Question:1 <br>Program to Remove Items from a Dropdown list</h3>
+    <div>
+    <form action="">
+        <label for="Items">Select Item </label>
+        <select name="" id="rem">
+            <option value="Pen">Pen</option>
+            <option value="Eraser">Eraser</option>
+            <option value="Sharpener">Sharpener</option>
+            <option value="NoteBook">NoteBook</option>
+        </select>
+
+        <input type="button" onclick="remItem()" value="Remove Selected Item">
+    </form>
+    </div>
+
+    <div>
+       <h3>Question:2 <br>Program to change the Text color of P tag by selecting from the Dropdown list</h3> 
+        <h4 style="color: rgb(175, 15, 15);">Select Color</h4>
+
+            <button style="color: red;" onclick="red()">RED</button>
+            <button style="color: green;" onclick="green()">GREEN</button>
+            <button style="color: blue;" onclick="blue()">BLUE</button>
+            <button style="color: orange;" onclick="orange()">ORANGE</button>    
+
+        <p id="para">"DOM Manipulation in javascript is the process of interacting with the DOM API to change or modify an HTML document that will be displayed in a web browser.<br> By manipulating the DOM, we can create web applications that update the data in a web page without refreshing the page. The DOM stands for Document Object Model."</p>
+
+    </div>
+
+    
+    <div>
+        <h3>Question:3 <br> write a JS Function to get the values of First and Last names of the given form: <br></h3>
+
+        <form action="" id="form1">
+            Enter the First and Last name : <br><br>
+
+            First Name: <input type="text" name="fname" id="fname1"><br><br>
+            Last Name: <input type="text" name="lname" id="lname1"><br><br>
+
+            <input id="sub" type="submit" value="Submit" onclick="subClick()">
+            
+        </form>
+
+    </div>
+
+    <div>
+        <h3>Question:4 <br> Write a JS program to display a random image (clicking on a button)</h3>
+
+         
+        <button id="btn" onclick="img1()">Click here for Image</button>
+        <img id="pic1" onclick="img2()" src="" alt="" >
+        <img id="pic2" onclick="img3()" src="" alt="" >
+        <img id="pic3" onclick="img1()" src="" alt="" >
+
+    </div>
+
+</body>
+<script src="JS_DOM.js"></script>
+</html>
